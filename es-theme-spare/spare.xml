@@ -5,7 +5,7 @@
     <view name="system, basic, detailed">
 
         <image name="background_color" extra="true">
-            <path>./_inc/images/bg_color.png</path>
+            <path>./_inc/images/bg_color.jpeg</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
@@ -92,7 +92,7 @@
             </image>
 
             <textlist name="gamelist">
-                <selectorColor>000000</selectorColor>
+                <selectorColor>3366FF</selectorColor>
                 <selectedColor>FFFFFF</selectedColor>
                 <primaryColor>000000</primaryColor>
                 <secondaryColor>888888</secondaryColor>
