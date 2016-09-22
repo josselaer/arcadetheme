@@ -81,7 +81,7 @@
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>0.01 0.02</pos>
-            <size>0.35 0.89</size>
+            <size>0.45 0.89</size>
             <color>FFFFFF99</color>
         </image>
 
@@ -98,7 +98,7 @@
                 <secondaryColor>888888</secondaryColor>
                 <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
                 <pos>0.02 0.25</pos>
-                <size>0.33 0.64</size>
+                <size>0.43 0.64</size>
                 <fontSize>0.04</fontSize>
                 <horizontalMargin>0.01</horizontalMargin>
             </textlist>
@@ -106,15 +106,17 @@
         <image name="background_image" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
-            <pos>0.37 0.02</pos>
+            <pos>-0.77 0.02</pos>
             <size>0.35 0.62</size>
             <color>FFFFFF99</color>
         </image>
 
             <image name="md_image">
                 <origin>0.5 0.5</origin>
-                <pos>0.545 0.33</pos>
-                <maxSize>0.33 0.58</maxSize>
+                <pos>0.745 0.40</pos>
+		<size>0.5 0.75</size>
+                <!--<maxSize>0.33 0.58</maxSize>-->
+		<maxSize>0.5 0.75</maxSize>
             </image>
 
         <image name="background_metadata" extra="true">
