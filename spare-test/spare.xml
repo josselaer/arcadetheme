@@ -11,7 +11,7 @@
             <size>1 1</size>
             <color>d4d4d4</color>
         </image>
-
+<!-- 
         <image name="background_pattern" extra="true">
             <path>./_inc/images/bg_pattern.png</path>
             <origin>0 0</origin>
@@ -19,15 +19,15 @@
             <size>0.9 0.9</size>
             <color>aeaeae</color>
             <tile>fit</tile>
-        </image>
+        </image> -->
 
-        <image name="background_help" extra="true">
+<!--         <image name="background_help" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 1</origin>
             <pos>0 1</pos>
             <size>1 0.070</size>
             <color>FFFFFF99</color>
-        </image>
+        </image> -->
 
         <helpsystem name="help">
             <textColor>000000</textColor>
@@ -81,45 +81,52 @@
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>0.01 0.02</pos>
-            <size>0.40 0.89</size>
+            <size>0.40 0.96</size>
             <color>FFFFFF99</color>
         </image>
 
-            <image name="logo">
-                <origin>0.5 0.5</origin>
-                <pos>0.186 0.14</pos>
-                <maxSize>0.33 0.19</maxSize>
-            </image>
+        <image name="logo">
+            <origin>0.5 0.5</origin>
+            <pos>0.186 0.14</pos>
+            <maxSize>0.33 0.19</maxSize>
+        </image>
 
-            <textlist name="gamelist">
-                <selectorColor>3366FF</selectorColor>
-                <selectedColor>FFFFFF</selectedColor>
-                <primaryColor>000000</primaryColor>
-                <secondaryColor>888888</secondaryColor>
-                <fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
-                <pos>0.02 0.25</pos>
-                <size>0.37 0.64</size>
-                <fontSize>0.04</fontSize>
-                <horizontalMargin>0.01</horizontalMargin>
-            </textlist>
+        <textlist name="gamelist">
+            <selectorColor>3366FF</selectorColor>
+            <selectedColor>FFFFFF</selectedColor>
+            <primaryColor>000000</primaryColor>
+            <secondaryColor>888888</secondaryColor>
+            <fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
+            <pos>0.02 0.25</pos>
+            <size>0.37 0.64</size>
+            <fontSize>0.04</fontSize>
+            <horizontalMargin>0.01</horizontalMargin>
+        </textlist>
 
-        <image name="background_image" extra="true">
+     <!--    <image name="background_image" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>-0.77 0.02</pos>
             <size>0.35 0.62</size>
             <color>FFFFFF99</color>
+        </image> -->
+
+        <image name="md_image">
+            <origin>0.5 0.55</origin>
+            <pos>0.705 0.425</pos>
+		    <size>0.57 0.73</size>
+		    <maxSize>0.5 0.75</maxSize>
         </image>
 
-            <image name="md_image">
-                <origin>0.5 0.55</origin>
-                <pos>0.705 0.50</pos>
-		<size>0.5 0.75</size>
-                <!--<maxSize>0.33 0.58</maxSize>-->
-		<maxSize>0.5 0.75</maxSize>
-            </image>
+        <image name="keybind_helper" extra="true">
+            <path>./_inc/images/bg_colorold.png</path>
+            <origin>0 0</origin>
+            <pos>0.42 0.77</pos>
+            <size>0.57 0.21</size>
+            <color>CDAD0044</color>
+        </image>
 
-        <image name="background_metadata" extra="true">
+        <!-- <image name="background_metadata" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>-0.73 0.02</pos>
@@ -207,17 +214,17 @@
                 </text>
                 <datetime name="md_lastplayed">
                     <pos>-0.75 0.50</pos>
-                </datetime>
+                </datetime> -->
 
-        <image name="background_description" extra="true">
+<!--         <image name="background_description" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>-0.75 0.66</pos>
             <size>0.62 0.25</size>
             <color>FFFFFF99</color>
-        </image>
+        </image> -->
 
-            <text name="md_description">
+<!--             <text name="md_description">
                 <pos>-0.75 0.68</pos>
                 <size>0.60 0.21</size>
                 <color>000000</color>
@@ -226,7 +233,7 @@
                 <alignment>left</alignment>
                 <forceUppercase>0</forceUppercase>
                 <lineSpacing>1.6</lineSpacing>
-            </text>
+            </text> -->
 
     </view>
 
