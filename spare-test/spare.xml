@@ -94,7 +94,7 @@
         <textlist name="gamelist">
             <selectorColor>3366FF</selectorColor>
             <selectedColor>FFFFFF</selectedColor>
-            <primaryColor>000000</primaryColor>
+            <primaryColor>F2F2F2</primaryColor>
             <secondaryColor>888888</secondaryColor>
             <fontPath>./_inc/fonts/PressStart2P.ttf</fontPath>
             <pos>0.02 0.28</pos>
