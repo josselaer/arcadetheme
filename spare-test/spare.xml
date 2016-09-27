@@ -118,19 +118,19 @@
 		    <maxSize>0.5 0.75</maxSize>
         </image>
 
-        <image name="keybind_helper" extra="true">
+        <!--<image name="keybind_helper" extra="true">
             <path>./_inc/images/bg_colorold.png</path>
             <origin>0 0</origin>
             <pos>0.45 0.71</pos>
             <size>0.54 0.27</size>
             <color>FFFFFF99</color>
-        </image>
+        </image>-->
 
 	<image name="joystick_buttons" extra="true">
             <path>./_inc/images/JoystickButtons.jpg</path>
             <origin>0 0</origin>
-            <pos>0.45 0.76</pos>
-            <size>0.50 0.18</size>
+            <pos>0.41 0.76</pos>
+            <size>0.34 0.18</size>
         </image>
 
         <!-- <image name="background_metadata" extra="true">
