@@ -30,8 +30,8 @@
         </image> -->
 
         <helpsystem name="help">
-            <textColor>000000</textColor>
-            <iconColor>000000</iconColor>
+            <textColor>FFFFFF</textColor>
+            <iconColor>FFFFFF</iconColor>
             <fontPath>./_inc/fonts/Roboto-Light.ttf</fontPath>
             <fontSize>0.03</fontSize>
         </helpsystem>
