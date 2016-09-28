@@ -128,7 +128,7 @@
         </image>-->
 
 	<image name="joystick_buttons" extra="true">
-            <path>./_inc/images/JoystickButtons.jpg</path>
+            <path>./_inc/images/ControllerLayoutFinal.png</path>
             <origin>0 0</origin>
             <pos>0.41 0.76</pos>
             <size>0.34 0.18</size>
