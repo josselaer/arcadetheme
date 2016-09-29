@@ -5,11 +5,11 @@
     <view name="system, basic, detailed">
 
         <image name="background_color" extra="true">
-            <path>./_inc/images/bg_color.jpeg</path>
+            <path>./_inc/images/232323.png</path>
             <origin>0 0</origin>
             <pos>0 0</pos>
             <size>1 1</size>
-            <color>d4d4d4</color>
+            <color>232323</color>
         </image>
 <!-- 
         <image name="background_pattern" extra="true">
@@ -115,8 +115,8 @@
         <image name="md_image">
             <origin>0.5 0.55</origin>
             <pos>0.72 0.395</pos>
-		    <size>0.54 0.68</size>
-		    <maxSize>0.5 0.75</maxSize>
+	    <size>0.48 0.62</size>
+	    <maxSize>0.5 0.75</maxSize>
         </image>
 
         <!--<image name="keybind_helper" extra="true">
